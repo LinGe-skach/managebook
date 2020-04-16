@@ -29,6 +29,6 @@ public class UserServiesimpl implements UserServies {
        UserServies userServies=(UserServies)ctx.getBean("userServies");
 
         System.out.println( userServies.login("admin","123"));
-        System.out.println("哈哈哈哈");
+        System.out.println("哈哈");
     }
 }
